@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "projectName": "StudyHub",
+    "Techinology": [
+      "vanilla js",
+      "Node Express",
+      "Prisma",
+      "css",
+      "Postgres sql"
+    ],
+    "links": [
+      {
+        "projectName": "view Project",
+        "ulr": "https//Studyhubfe.netlify.app"
+      },
+      {
+        "projectName": "vist Github",
+        "ulr": "https://gituhub/shikamusenge/studyhub"
+      }
+    ],
+    "image": "/pro_images/pro1.jpg"
+  },
+  {
+    "id": 2,
+    "projectName": "Moivis Libiraly",
+    "Techinology": ["React", "vite", "Tail wind css"],
+    "links": [
+      {
+        "projectName": "vist site",
+        "url": "https://moive-lab.vercel.app/"
+      },
+      {
+        "projectName": "vist Github",
+        "url": "https://moive-lab.vercel.app/"
+      }
+    ],
+    "image": "/pro_images/pro2.png"
+  },
+  {
+    "id": 3,
+    "projectName": "Et-Sketch",
+    "Techinology": ["vanilla js", "Html", "css"],
+    "links": [
+      { "projectName": "view Project", "links": "https//github.io/Et-scketch" },
+      {
+        "projectName": "vist Github",
+        "ulr": "https://gituhub/shikamusenge/Et-scketch"
+      }
+    ],
+    "image": "/pro_images/pro3.png"
+  },
+  {
+    "id": 3,
+    "projectName": "WeatherApp",
+    "Techinology": ["vanilla js", "Html", "css"],
+    "links": [
+      { "projectName": "view Project", "links": "https//github.io/Et-scketch" },
+      {
+        "projectName": "vist Github",
+        "ulr": "https://gituhub/shikamusenge/WeatherApp"
+      }
+    ],
+    "image": "/pro_images/pro4.png"
+  },
+  {
+    "id": 3,
+    "projectName": "CountryApp",
+    "Techinology": ["vanilla js", "Html", "css"],
+    "links": [
+      { "projectName": "view Project", "links": "https//github.io/CountryApp" },
+      {
+        "projectName": "vist Github",
+        "ulr": "https://gituhub/shikamusenge/CountryApp"
+      }
+    ],
+    "image": "/pro_images/pro5.jpg"
+  },
+  {
+    "id": 6,
+    "projectName": "Kein Fc",
+    "Techinology": ["vanilla js", "JSP", "Html", "css", "Mysql"],
+    "links": [
+      {
+        "projectName": "vist Github",
+        "url": "https://gituhub/shikamusenge/studyhub"
+      }
+    ],
+    "image": "/pro_images/pro6.png"
+  }
+]
