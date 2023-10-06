@@ -19,10 +19,10 @@ function ProjectCard({
       <div>
         <div>{projectName}</div>
         <div>
-          <h3 className="text-lg">Techinologies:</h3>
-          <div className="flex gap-3">
+          <p className="">Techinologies:</p>
+          <div className="flex md:flex-row flex-col gap-3 flex-wrap">
             {Techinology.map((item, i) => (
-              <div key={i} className="rounded bg-slate-500 px-1">
+              <div key={i} className=" mx-1 rounded bg-slate-500 px-1 text-sm">
                 {item}
               </div>
             ))}
@@ -31,7 +31,7 @@ function ProjectCard({
         <div className="flex gap-2 my-2">
           {links.map((item, i) => (
             <div key={i} className="px-1 bg-slate-500">
-              <Link to={item.url}>{item.projectName}</Link>
+              <Link to={`${item.url}`}>{item.projectName}</Link>
             </div>
           ))}
         </div>

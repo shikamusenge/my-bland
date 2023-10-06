@@ -14,7 +14,12 @@ const Services = () => {
     <div className="grid min-h-screen items-center p-4 md:px-12">
       <LargeCard>
         <div className="px-4 pt-8 text-white md:w-3/12 font-extrabold shadow-sky-200 shadow-md ">
-          <img src={icon} alt="Skills" width="50%" className="m-auto" />
+          <img
+            src={icon}
+            alt="Skills"
+            width="50%"
+            className="md:w-1/2 w-10 m-auto"
+          />
           <p className="text-center text-[30px] tracking-wider mt-4">
             Services
           </p>

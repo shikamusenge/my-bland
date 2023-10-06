@@ -45,27 +45,27 @@ const Footer = () => {
         <div className="flex text-[20px] gap-4 my-4">
           <span className="h-fit p-1 w-fit rounded-sm bg-sky-600 text-white">
             <Link
-              to="www.linkedin.com/in/shikamusenge-philemon-86494b291"
+              to="https://www.linkedin.com/in/shikamusenge-philemon-86494b291/"
               target="_blank"
             >
               <FaLinkedinIn />
             </Link>
           </span>
           <span className="h-fit p-1 w-fit rounded-sm bg-green-600 text-white">
-            <Link
-              to="https://api.whatsapp.com/send?phone=+250784589448"
-              target="_blank"
-            >
+            <Link to="https://wa.me/0784589448" target="_blank">
               <FaWhatsapp />
             </Link>
           </span>
           <span className="h-fit p-1 w-fit rounded-sm text-sky-400">
-            <Link to="" target="_blank">
+            <Link to="https://twitter.com/ShikamusengeP" target="_blank">
               <FaTwitter />
             </Link>
           </span>
           <span className="h-fit p-1 w-fit rounded-sm  bg-sky-900 text-white">
-            <Link to="" target="_blank">
+            <Link
+              to="https://www.facebook.com/profile.php?id=100085362144715"
+              target="_blank"
+            >
               <FaFacebookF />
             </Link>
           </span>

@@ -42,33 +42,42 @@
     "projectName": "Et-Sketch",
     "Techinology": ["vanilla js", "Html", "css"],
     "links": [
-      { "projectName": "view Project", "links": "https//github.io/Et-scketch" },
+      {
+        "projectName": "view Project",
+        "ulr": "https//shikamusenge.github.io/Et-scketch"
+      },
       {
         "projectName": "vist Github",
         "ulr": "https://gituhub/shikamusenge/Et-scketch"
-      }
-    ],
-    "image": "/pro_images/pro3.png"
-  },
-  {
-    "id": 3,
-    "projectName": "WeatherApp",
-    "Techinology": ["vanilla js", "Html", "css"],
-    "links": [
-      { "projectName": "view Project", "links": "https//github.io/Et-scketch" },
-      {
-        "projectName": "vist Github",
-        "ulr": "https://gituhub/shikamusenge/WeatherApp"
       }
     ],
     "image": "/pro_images/pro4.png"
   },
   {
     "id": 3,
+    "projectName": "WeatherApp",
+    "Techinology": ["vanilla js", "Html", "css"],
+    "links": [
+      {
+        "projectName": "view Project",
+        "links": "https://shikamusenge.github.io/weatherApp/"
+      },
+      {
+        "projectName": "vist Github",
+        "ulr": "https://shikamusenge.github.io/WeatherApp"
+      }
+    ],
+    "image": "/pro_images/pro6.png"
+  },
+  {
+    "id": 3,
     "projectName": "CountryApp",
     "Techinology": ["vanilla js", "Html", "css"],
     "links": [
-      { "projectName": "view Project", "links": "https//github.io/CountryApp" },
+      {
+        "projectName": "view Project",
+        "url": "https://shikamusenge.github.io/country-app/"
+      },
       {
         "projectName": "vist Github",
         "ulr": "https://gituhub/shikamusenge/CountryApp"
@@ -83,9 +92,9 @@
     "links": [
       {
         "projectName": "vist Github",
-        "url": "https://gituhub/shikamusenge/studyhub"
+        "url": "https://github.com/shikamusenge/kein-fc"
       }
     ],
-    "image": "/pro_images/pro6.png"
+    "image": "/pro_images/kein.png"
   }
 ]
