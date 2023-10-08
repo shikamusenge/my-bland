@@ -6,12 +6,14 @@ import { SendMail } from "../libs/Email";
 import { Button1 } from "../Components/Buttons";
 import { FaEnvelope, FaMessage, FaPhone, FaUser } from "react-icons/fa6";
 import TextField from "../Components/TextField";
+import loader from "/ld.gif";
 import { useState } from "react";
 function Contact() {
   const [names, setNames] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [sending, setSetSending] = useState(false);
   return (
     <div className="grid min-h-screen items-center p-4 md:px-12">
       <LargeCard>
@@ -102,21 +104,38 @@ function Contact() {
                   <FaMessage />
                 </TextField>
                 <Button1>
-                  <p
-                    className="w-full"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      const data = {
-                        email: email,
-                        names: names,
-                        phone: phone,
-                        message: message,
-                      };
-                      SendMail(data);
-                    }}
-                  >
-                    Send
-                  </p>
+                  {sending ? (
+                    <img src={loader} alt="loader" className="w-10 m-auto" />
+                  ) : (
+                    <p
+                      className="w-full"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        const data = {
+                          email: email,
+                          names: names,
+                          phone: phone,
+                          message: message,
+                        };
+                        setSetSending(true);
+                        const SendNewMail = async () => {
+                          await SendMail(e, data);
+                          setSetSending(false);
+                          alert("Email sent success fully");
+                        };
+                        SendNewMail();
+                        setNames("");
+                        setEmail("");
+                        setMessage("");
+                        setPhone("");
+                        document.querySelectorAll("input").forEach((inp) => {
+                          inp.value = "";
+                        });
+                      }}
+                    >
+                      Send
+                    </p>
+                  )}
                 </Button1>
               </form>
             </div>

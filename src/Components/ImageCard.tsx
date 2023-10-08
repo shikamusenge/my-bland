@@ -10,7 +10,7 @@ import img from "/profile1.png";
 import { Link } from "react-router-dom";
 const ImageComponent = () => {
   return (
-    <div className=" h-[28rem] sm:max-h[80vh] sm:max-w-[90vw] md:w-[18rem] border-4  rounded-[0.5rem] overflow-hidden border-slate-800 bg-slate-600">
+    <div className=" h-[28rem] sm:max-h[80vh] sm:max-w-[90vw] md:w-[18rem] border-4  rounded-[0.5rem] overflow-hidden border-slate-800">
       <div className=" h-[70%] max-h-[70%] overflow-hidden">
         <img src={img} className="h-full" alt="" />
       </div>

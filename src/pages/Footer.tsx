@@ -71,27 +71,27 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex text-[20px] justify-between gap-2 my-4 text-white font-bold">
-          <Link to="/#home">
+          <a href="/#home">
             <FaHouseChimney />
-          </Link>
-          <Link to="/#about">
+          </a>
+          <a href="/#about">
             <FaUser />
-          </Link>
-          <Link to="/#skills">
+          </a>
+          <a href="/#skills">
             <FaGear />
-          </Link>
-          <Link to="/#service">
+          </a>
+          <a href="/#service">
             <FaServicestack />
-          </Link>
-          <Link to="/#Portifolio">
+          </a>
+          <a href="/#Portifolio">
             <FaFileContract />
-          </Link>
-          <Link to="/#contacts">
+          </a>
+          <a href="/#contacts">
             <FaEnvelope />
-          </Link>
+          </a>
         </div>
       </div>
-      <div className="text-white text-center font-extrabold mb-2">
+      <div className="text-white text-center text-md md:font-extrabold mb-2">
         &copy; All Right Reserverd to SHIKAMUSENGE Philemon
       </div>
     </div>

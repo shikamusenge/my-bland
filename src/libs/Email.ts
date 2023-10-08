@@ -1,34 +1,28 @@
-// import nodemailer from "nodemailer";
+import emailjs from "emailjs-com";
 import { Temail } from "./Types";
-export const SendMail = (data: Temail) => {
-  console.log(data);
-  //   const { email, names, phone, message } = data;
-  //   const transporter = nodemailer.createTransport({
-  //     service: "gmail",
-  //     auth: {
-  //       user: "intaretek@gmail.com",
-  //       pass: import.meta.env.NODE_Mailer_PASSWORD,
-  //     },
-  //   });
-  //   const body = `
-  //  <div style="font-weight:bold">
-  //  <h1>Names:${names}</h1>
-  //  <h1>Phone:${phone}</h1>
-  //  <p>Names:${message}</p>
-
-  //  </div>
-  //  `;
-  //   const mailOptions = {
-  //     from: email,
-  //     to: "codeexp77@gmail.com",
-  //     subject: `Portifolio ${names}`,
-  //     html: body,
-  //   };
-
-  //   transporter.sendMail(mailOptions, function (error, info) {
-  //     if (error) {
-  //       console.log(error, info);
-  //     } else {
-  //     }
-  //   });
+export const SendMail = (e: any, data: Temail) => {
+  e.preventDefault();
+  const { email, names, phone, message } = data;
+  emailjs
+    .send(
+      "service_ogo77a1", // Replace with your EmailJS email service ID
+      "template_ssr9nw9", // Replace with your EmailJS template ID
+      {
+        to_email: "codeexp77@gmail.com", // Replace with the recipient's email address
+        names: names,
+        phone: phone,
+        email: email,
+        message: message,
+      },
+      "0Kt8fX--XlBiyNWBO" // Replace with your EmailJS user ID
+    )
+    .then(
+      (response) => {
+        console.log("Email sent successfully:", response);
+        // return "Message sent successfully!";
+      },
+      (error) => {
+        console.error("Error sending email:", error);
+      }
+    );
 };

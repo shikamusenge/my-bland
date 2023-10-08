@@ -35,7 +35,7 @@ function Home() {
           <div className="italic text-[4vw] animate-pulse">
             Full stack Developer
           </div>
-          <div className="flex justify-around p-4 ">
+          <div className="flex gap-2 justify-around p-4 ">
             <Button1>
               <Link
                 to="https://drive.google.com/file/d/1MgLGLUBU6v8AQXyUyVGMCLeMLFARn5Q1/view?usp=drive_link"
