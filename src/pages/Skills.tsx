@@ -58,6 +58,7 @@ const Skills = () => {
                       src={`/tools/${tool}`}
                       alt={tool.slice(0, 3)}
                       className="h-10 w-10"
+                      loading="lazy"
                     />
                   </picture>
                 ))}

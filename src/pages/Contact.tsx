@@ -22,7 +22,8 @@ function Contact() {
             src={icon1}
             alt="Skills"
             width="50%"
-            className="md:w-1/2 w-10 m-auto"
+            className="md:w-1/2 w-10 m-auto mx-w-1/2"
+            loading="lazy"
           />
           <p className="text-center text-[30px] tracking-wider mt-4">
             Contuct Us
@@ -31,7 +32,12 @@ function Contact() {
         <div className="md:w-9/12 p-4 bg-[#013853] md:px-12 text-white items-center">
           <div className="md:flex items-center mb-10">
             <picture className="">
-              <img src={icon2} alt="" className="w-[18rem] h-[14rem]" />
+              <img
+                src={icon2}
+                alt=""
+                className="w-[18rem] h-[14rem]"
+                loading="lazy"
+              />
             </picture>
             <div>
               <p>MY CONTACTS</p>
