@@ -19,7 +19,12 @@ function Portifolio() {
     >
       <LargeCard>
         <div className="pt-8 text-white md:w-3/12 font-extrabold">
-          <img src={icon1} alt="Skills" className="md:w-1/2 w-10 m-auto" />
+          <img
+            src={icon1}
+            alt="Skills"
+            className="md:w-1/2 w-10 m-auto"
+            loading="lazy"
+          />
           <p className="text-center  text:2xl md:text-[30px] tracking-wider mt-4">
             Portifolio
           </p>

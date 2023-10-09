@@ -9,13 +9,14 @@ function ProjectCard({
 }: projectProps): ReactNode {
   return (
     <div className="my-8 shadow-md flex gap-2">
-      <div>
+      <picture>
         <img
           src={image}
+          loading="lazy"
           alt={image.slice(11, 15)}
           className="w-[7rem] h-[7rem] m-2"
         />
-      </div>
+      </picture>
       <div>
         <div>{projectName}</div>
         <div>
