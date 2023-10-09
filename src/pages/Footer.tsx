@@ -91,7 +91,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="text-white text-center text-md md:font-extrabold mb-2">
+      <div className="text-white text-md font-normal text-center text-md md:font-extrabold mb-2">
         &copy; All Right Reserverd to SHIKAMUSENGE Philemon
       </div>
     </div>
