@@ -52,13 +52,14 @@ const Skills = () => {
                 Libraries
               </p>
               <div className="flex gap-2 flex-wrap">
-                {tools.map((tool) => (
-                  <img
-                    src={`/tools/${tool}`}
-                    key={tool}
-                    alt={tool.slice(0, 3)}
-                    className="h-10 w-10"
-                  />
+                {tools.map((tool, i) => (
+                  <picture key={i}>
+                    <img
+                      src={`/tools/${tool}`}
+                      alt={tool.slice(0, 3)}
+                      className="h-10 w-10"
+                    />
+                  </picture>
                 ))}
               </div>
             </div>

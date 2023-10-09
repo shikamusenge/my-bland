@@ -30,9 +30,9 @@ function Contact() {
         </div>
         <div className="md:w-9/12 p-4 bg-[#013853] md:px-12 text-white items-center">
           <div className="md:flex items-center mb-10">
-            <div className="">
+            <picture className="">
               <img src={icon2} alt="" className="w-[18rem] h-[14rem]" />
-            </div>
+            </picture>
             <div>
               <p>MY CONTACTS</p>
               <p>
@@ -46,13 +46,13 @@ function Contact() {
             </div>
           </div>
           <div className="md:flex items-center mb-10">
-            <div>
+            <picture>
               <img
                 src={icon3}
                 alt=""
                 className="w-20 md:w-[13rem] mb-2 md:-rotate-45"
               />
-            </div>
+            </picture>
             <div className="md:w-7/12">
               <form className="w-full">
                 <TextField
