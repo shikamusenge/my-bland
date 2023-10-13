@@ -7,7 +7,7 @@ const AboutMe = (): ReactNode => {
           <div className="md:w-5/12">
             <picture className=" h-[12rem] w-[12rem] my-4 md:w-[20rem] md:h-[20rem] bg-gradient-bS bg-white flex rounded-full overflow-hidden ">
               <img
-                src="/profile2.jpg"
+                src="/profile2.png"
                 className="w-full md:h-[30rem] h-full"
                 loading="lazy"
               />
