@@ -3,7 +3,7 @@ import LargeCard from "../Components/LargeCard";
 import icon from "/award.png";
 const Certification = () => {
   const Award = [
-    "TVET certificate IV In software Development",
+    "TVET certificate V In software Development",
     "Andera Kick-strat program certificate",
   ];
   return (
@@ -21,7 +21,7 @@ const Certification = () => {
         <div className="md:w-9/12 p-4 bg-[#013853] flex md:px-12 text-white items-center">
           <div className="">
             <div>
-              <p className="text-[20px] mb-4 mt-5 tracking-wider">Awards</p>
+              <p className="text-lg md:text-[20px] mb-4 mt-5 tracking-wider">Awards</p>
               <div className="w-full text-[30px]">
                 {Award.map((item, i) => (
                   <p key={i} className="mb-2 flex gap-1 ">
